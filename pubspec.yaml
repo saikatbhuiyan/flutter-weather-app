@@ -1,0 +1,51 @@
+name: weather
+description: A new Flutter application.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  geolocator: ^5.2.1
+  http: ^0.12.0+4
+  flutter_spinkit: ^4.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/city_background.jpg
+    - images/location_background.jpg
+    - images/city.jpg
+    - images/city2.jpg
+    - images/back.jpg
+    - images/back2.jpg
+    - images/back3.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+
+
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.otf
+          weight: 900
